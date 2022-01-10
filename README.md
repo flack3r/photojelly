@@ -1,16 +1,10 @@
 # photojelly
 
-draw photo locaion on map
+사진으로 자신만의 스토리를 만들어 보세요
 
-## Getting Started
+## Todo
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 사진 로딩 방법 ? 로컬 , 클라우드 ?
+- 사진 위치 파싱
+- 스토리 ? 어떤 스토리를 만들까
+- 계정 기반으로 확장은 어떤식으로 할까
