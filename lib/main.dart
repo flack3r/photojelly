@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:photojelly/IntroScreen.dart';
+import 'package:photojelly/MainScreen.dart';
 
-final String PACKAGE_NAME = "PhotoJelly";
+const String PACKAGE_NAME = "PhotoJelly";
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: PACKAGE_NAME,
+      initialRoute: '/welcome',
+      routes: {
+        '/welcome' : (context) => const IntroScreen(),
+        '/main' : (context) => const MainScreen(),
+      },
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -27,7 +33,6 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const IntroScreen(),
     );
   }
 }

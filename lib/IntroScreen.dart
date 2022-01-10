@@ -21,7 +21,7 @@ class _IntroScreenState extends State<IntroScreen> {
         title: "안녕하세요!",
         styleTitle:
         TextStyle(color: Color(0xff7FFFD4), fontSize: 30.0, fontWeight: FontWeight.bold, fontFamily: 'RobotoMono'),
-        description: "저장된 사진을 지도 스토리로 만들어 추억을 간직하세요",
+        description: "포토젤리와 함께 저장된 사진을 지도 스토리로 만들어 추억을 간직하세요",
         styleDescription:
         TextStyle(color: Colors.white, fontSize: 20.0, fontStyle: FontStyle.italic, fontFamily: 'Raleway'),
         backgroundImage: "images/welcome.png",
@@ -38,7 +38,7 @@ class _IntroScreenState extends State<IntroScreen> {
 
   void onDonePress() {
     // Do what you want
-    print("End of slides");
+    Navigator.pushNamed(context, '/main');
   }
 
   @override
